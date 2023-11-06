@@ -12,6 +12,20 @@
         android:theme="@style/Theme.Tic_Tac_Toe"
         tools:targetApi="31">
         <activity
+            android:name=".DoubleGameActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SingleGameActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

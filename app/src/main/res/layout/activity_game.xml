@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F2963"
+    tools:context=".SingleGameActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_table_customized"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Player One"
+                android:textColor="@color/bgc"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/tvIconP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="X"
+                android:textColor="@color/bgc"
+                android:textSize="50dp" />
+            <TextView
+                android:id="@+id/tvScoreP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="0"
+                android:textColor="@color/bgc"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_table_customized"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Player Two"
+                android:textColor="@color/bgc"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvIconP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="O"
+                android:textColor="@color/bgc"
+                android:textSize="50dp" />
+            <TextView
+                android:id="@+id/tvScoreP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="0"
+                android:textColor="@color/bgc"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=" "
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_table_customized"
+                android:padding="15dp"
+                android:text=""
+                android:textSize="50dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
