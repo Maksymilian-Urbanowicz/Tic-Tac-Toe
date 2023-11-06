@@ -33,7 +33,9 @@
                 android:padding="8dp"
                 android:text="Player One"
                 android:textColor="@color/bgc"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvIconP1"
                 android:layout_width="wrap_content"
@@ -41,7 +43,9 @@
                 android:layout_marginStart="40dp"
                 android:text="X"
                 android:textColor="@color/bgc"
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvScoreP1"
                 android:layout_width="wrap_content"
@@ -51,7 +55,8 @@
                 android:layout_marginBottom="10dp"
                 android:text="0"
                 android:textColor="@color/bgc"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
@@ -83,7 +88,8 @@
                 android:padding="8dp"
                 android:text="Player Two"
                 android:textColor="@color/bgc"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvIconP2"
@@ -92,7 +98,9 @@
                 android:layout_marginStart="40dp"
                 android:text="O"
                 android:textColor="@color/bgc"
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvScoreP2"
                 android:layout_width="wrap_content"
@@ -102,7 +110,8 @@
                 android:layout_marginBottom="10dp"
                 android:text="0"
                 android:textColor="@color/bgc"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
@@ -125,7 +134,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btn00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -133,10 +142,11 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=" "
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -144,10 +154,11 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=" "
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -155,7 +166,8 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
         </TableRow>
 
         <TableRow
@@ -163,7 +175,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btn10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -171,10 +183,11 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btn11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -182,10 +195,11 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -193,7 +207,8 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
         </TableRow>
 
         <TableRow
@@ -201,7 +216,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btn20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -209,10 +224,11 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btn21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -220,10 +236,11 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btn22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
@@ -231,9 +248,48 @@
                 android:background="@drawable/btn_table_customized"
                 android:padding="15dp"
                 android:text=""
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:textColor="@drawable/text_color_status"/>
         </TableRow>
 
     </TableLayout>
+
+    <ImageView
+        android:id="@+id/imgWinner"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <TextView
+        android:id="@+id/tvWinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="296dp"
+        android:capitalize="none"
+        android:text="win the game"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="260dp"
+        android:text="winner "
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
