@@ -1,5 +1,6 @@
 # Tic-Tac-Toe
 ![tic-tac-toe (1)](https://github.com/Maksymilian-Urbanowicz/Tic-Tac-Toe/assets/80683009/be4f7e2c-f72d-4c4d-b04b-7f661c848a1c)
+[Tic tac toe icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/tic-tac-toe)
 
 Tic-Tac-Toe is a classic and timeless game that can be enjoyed by people of all ages. This Android application brings the traditional game to your mobile device, allowing you to play it anytime and anywhere.
 
