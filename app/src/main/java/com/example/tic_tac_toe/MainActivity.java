@@ -21,12 +21,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Switch swtTypeGame = findViewById(R.id.swtTypeGame);
-                if(Boolean.parseBoolean(String.valueOf(swtTypeGame.getShowText())) == true){
-                    Intent intent  = new Intent(MainActivity.this, SingleGameActivity.class);
-                    startActivity(intent);
-                }else{
-
-                }
+                Intent intent  = new Intent(MainActivity.this, GameActivity.class);
+                intent.putExtra("isSingleGame", swtTypeGame.isChecked());
+                startActivity(intent);
                 //Toast.makeText(MainActivity.this, "" + String.valueOf(swtTypeGame.getShowText()), Toast.LENGTH_LONG).show();
             }
         });
